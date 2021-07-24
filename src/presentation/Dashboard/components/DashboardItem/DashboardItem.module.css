@@ -1,0 +1,31 @@
+.container {
+    position: relative;
+    height: 170px;
+}
+.container .title {
+    margin: 10px 0 10px 0px;
+}
+
+.container > button {
+    background: var(--blue);
+    padding: 10px 18px;
+    letter-spacing: 0.07em;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    color: var(--white);
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+.container > .icon {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: auto;
+    height: auto;
+}

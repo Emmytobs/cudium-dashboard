@@ -1,0 +1,18 @@
+.header {
+    width: 100%;
+    padding: 8px 70px;
+    background: var(--container-bg-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.header_profile_container {
+    flex: 0 0 80px;
+    /* background: blue; */
+}
+.header_profile_container > img {
+    pointer-events: all;
+    cursor: pointer;
+}

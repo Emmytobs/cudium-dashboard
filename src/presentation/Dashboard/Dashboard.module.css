@@ -1,0 +1,22 @@
+.dashboard {
+    width: calc(100% - 300px);
+    margin: 90px 0 0 auto;
+    padding: 0 60px;
+}
+
+.grid_block {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 17px 30px;
+    margin-top: 17px;
+}
+
+.balance {
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+
+.grid_block_col_one > * {
+    margin-bottom: 17px;
+}

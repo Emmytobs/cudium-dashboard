@@ -1,0 +1,50 @@
+.balance {
+    padding: 0;
+}
+.balance_amount_currency {
+    padding: 20px 0;
+}
+.balance_amount_currency > * {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+.balance_amount_currency > .amount {
+    font-weight: 600;
+    color: var(--green);
+    margin: 20px auto;
+}
+
+.balance_actions {
+    border-top: 1px solid var(--border-color);
+    padding: 17px 50px;
+    margin-top: 5px;
+}
+
+.balance_actions > .action {
+    background-color: #353F4D;
+    border-radius: 5px;
+    padding: 8px 25px;
+    cursor: pointer;
+    outline: none;
+    transition-property: background, border;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+}
+.balance_actions > .action:hover {
+    background-color: #3e4959;
+
+}
+.balance_actions > .action:focus {
+    border: 1px solid #d1d7df;
+    background-color: #516176;
+}
+
+.balance_actions > .action > img {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+.balance_actions > .action p {
+    margin: 8px 0 0 0;
+}
