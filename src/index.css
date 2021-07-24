@@ -5,6 +5,7 @@
   --dark-paragraph-color: #ffffffb3;
   --dark-header-color: #ffffff;
   --dark-border-color: #ffffff1a;
+  --dark-text-opacity-color: rgba(255, 255, 255, 0.602);
   
   /* Global variables */
   --primary-font: 'Inter', sans-serif;
@@ -25,6 +26,7 @@
   --text-color: var(--dark-paragraph-color);
   --header-color: var(--dark-header-color);
   --border-color: var(--dark-border-color);
+  --text-opacity-color: var(--dark-text-opacity-color);
 }
 body {
   margin: 0;
@@ -176,7 +178,7 @@ small {
 }
 
 .text-opacity {
-  opacity: 70%;
+  color: var(--text-opacity-color);
 }
 
 .container {
