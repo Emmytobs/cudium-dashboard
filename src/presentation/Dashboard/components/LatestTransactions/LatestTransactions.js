@@ -2,7 +2,7 @@ import React from 'react'
 // Styles
 import styles from './LatestTransactions.module.css';
 // Icons
-import failedTransactionIcon from './icons/failed-transaction.png'
+// import failedTransactionIcon from './icons/failed-transaction.png'
 import successfulTransactionIcon from './icons/successful-transaction.png'
 
 function LatestTransactions() {
